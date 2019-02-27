@@ -1,4 +1,4 @@
---Sql 3 and 4 combined : 
+--Jira User story transactions : 
 select /*+ PARALLEL(10) */
 PKEY.project_key || '-' || JI.ISSUENUM as STORY_NUMBER,
          
